@@ -1,4 +1,5 @@
 "use strict"; // treat all js code as newer version
+
 console.log("hello world")
 console.log("My name is Pratik")
 const myName = "Pratik"
