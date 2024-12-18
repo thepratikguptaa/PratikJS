@@ -1,4 +1,4 @@
-// const myArr = [1, 2, 3, 4, 5] // can also keep mix of datatypes in the same array
+const myArr = [1, 2, 3, 4, 5] // can also keep mix of datatypes in the same array
 const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr2)
 // console.log(myArr2[1])
@@ -14,6 +14,9 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr2.indexOf(3)) // if not found returns -1
 
 // console.log(myArr2.join("-"))
+
+// let concatArr = myArr2.concat(myArr)
+// console.log(concatArr)
 
 // console.log(myArr2)
 
