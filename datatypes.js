@@ -18,13 +18,15 @@ console.log(id === anotherId);
 const heros = ["ironman", "venom", "spiderman"];
 let myObj = {
     name: "Pratik",
-    age: 19,
+    age: 19, // has keys and values like dictionary in python
 }
 
 const myFunction = function(){
     console.log("Hello world");
 }
+myFunction() // calling a function
+console.log(typeof myFunction)
+console.log(typeof myObj)
 
-console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
