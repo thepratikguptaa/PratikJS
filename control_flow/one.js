@@ -15,3 +15,5 @@ if (balance >= 1000) {
 } else if (balance < 500) {
     console.log("User can buy only one game")
 }
+
+
