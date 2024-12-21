@@ -44,3 +44,12 @@
 const guestUser = undefined
 const userName = guestUser ?? "Guest User"
 console.log(userName)
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++ Ternary Operator ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// condition ? true : false
+const iceTeaPrice = 100
+iceTeaPrice >= 80 ? console.log("Iced Tea Price is more than 80") : console.log("Iced Tea Price is less than 80")
