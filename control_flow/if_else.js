@@ -7,7 +7,7 @@
 //     console.log("User is not logged in")
 // }
 
-const balance = 900
+// const balance = 900
 // if (balance > 500) console.log("User can buy a new game")
 
 // if (balance >= 1000) {
@@ -18,11 +18,29 @@ const balance = 900
 //     console.log("User needs more money to buy two games")
 // }
 
-const isUserLoggedIn = true
-const debitCard = true
-const loggedInFromGmail = false
-const loggedInFromMicrosoft = false
-const guestUser = true
-if (isUserLoggedIn && debitCard && (loggedInFromGmail || loggedInFromMicrosoft || guestUser)) {
-    console.log("Allowed to buy games")
-}
+// const isUserLoggedIn = true
+// const debitCard = true
+// const loggedInFromGmail = false
+// const loggedInFromMicrosoft = false
+// const guestUser = true
+// if (isUserLoggedIn && debitCard && (loggedInFromGmail || loggedInFromMicrosoft || guestUser)) {
+//     console.log("Allowed to buy games")
+// }
+
+
+
+
+// ++++++++++++++++++++++++++++++++++ Nullish Coalescing Operator ?? (null or undefined) +++++++++++++++++++++++++++++++++++++++++++++++ 
+
+// let val1
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+// val1 = null ?? 10 ?? 15
+// console.log(val1)
+
+
+// const guestUser = null
+const guestUser = undefined
+const userName = guestUser ?? "Guest User"
+console.log(userName)
