@@ -29,9 +29,3 @@ switch (month) {
         console.log("Not a month")
         break;
 }
-
-
-
-
-
-
