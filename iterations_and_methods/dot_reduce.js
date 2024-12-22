@@ -14,6 +14,7 @@ const myNums = [1, 2, 3, 4, 5]
 // console.log(sum)
 // console.log(sum1)
 
+
 const shoppingCart = [
     {
         itemName: "Shoes",
