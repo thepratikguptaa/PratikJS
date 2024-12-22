@@ -41,7 +41,5 @@ const books = [
 const userBooks = books.filter( (book) => book.genre === 'Fiction')
 const userBooks2 = books.filter( (book) => book.publish >= 1999) 
 
-
-
 console.log(userBooks) 
 console.log(`Books published on or after 1999: ${JSON.stringify(userBooks2)}`) // JSON.stringify() converts object to readable string
